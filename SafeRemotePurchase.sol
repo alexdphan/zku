@@ -93,6 +93,8 @@ contract Purchase {
     /// Transaction has to include `2 * value` ether.
     /// The ether will be locked until confirmReceived
     /// is called.
+    /// setting buyer to msg.sender (has to be payable)
+    /// setting lastCalls of msg.sender to the block.timestamp here
     function confirmPurchase()
         external
         inState(State.Created)
