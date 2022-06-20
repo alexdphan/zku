@@ -1,1 +1,1 @@
-# zku-app
+# zku
