@@ -1,6 +1,6 @@
 # zku
 
-## Application for zku
+Application for zku
 
 ### Just a heads up
 The png images are a bit blurry! 
